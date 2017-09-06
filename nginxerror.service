@@ -1,0 +1,11 @@
+[Unit]
+Description=Nginx your_site error logs 
+
+[Service]
+Type=forking
+ExecStart=/etc/zabbix/init.d/nginx.error.sh your_site  start
+ExecStop=/etc/zabbix/init.d/nginx.error.sh your_site stop
+Restart=always
+
+[Install]
+WantedBy=default.target
