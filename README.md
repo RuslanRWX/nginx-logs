@@ -34,7 +34,7 @@ systemctl daemon-reload <br>
 4. Zabbix <br>
 4.1 site.txt - file for discovery rule  <br>
 sed -i "s/your_site/REAL_NAME/" site.txt <br>
-4.2 Scripts 
+4.2 Scripts <br>
 mkdir /etc/zabbix/init.d/<br>
 cp nginx.error.sh /etc/zabbix/init.d/<br>
 cp nginx.log.sh /etc/zabbix/init.d/ <br>
