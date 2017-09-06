@@ -1,0 +1,5 @@
+{
+ "data":[
+{"{#SITE}":"your_site"}
+ ]
+}
