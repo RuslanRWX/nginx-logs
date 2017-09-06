@@ -3,7 +3,7 @@
 
 1. Install  <br>
 1.1 git clone <br>
-git clone https://github.com/ruslansvs2/nginx-logs.git
+git clone https://github.com/ruslansvs2/nginx-logs.git<br>
 1.2 cd nginx-logs
 <br>
 
