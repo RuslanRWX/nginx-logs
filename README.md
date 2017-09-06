@@ -8,7 +8,7 @@ git clone https://github.com/ruslansvs2/nginx-logs.git
 1.2 cd nginx-logs
 <br>
 
-2. Nginx 
+2. Nginx  <br>
 2.1 Add log format to nginx.conf  <br>
 
 log_format  status  '$status'; <br>
@@ -22,10 +22,15 @@ sed -i "s/your_site/REAL_NAME/" nginxlog.service  <br>
 sed -i "s/your_site/REAL_NAME/" nginxerror.service <br>
 Where REAL_NAME is your site name  <br>
 3.1 copy to systemd directory<br>
-debian 
+Debian: <br>
 cp nginxerror.service /etc/systemd/system/ <br>
 cp nginxlog.service  /etc/systemd/system/ <br>
 systemctl daemon-reload <br>
+RHEL,CentOS:<br>
+cp nginxerror.service /usr/lib/systemd/system/ <br>
+cp nginxlog.service  /usr/lib/systemd/system/ <br>
+systemctl daemon-reload <br>
+
 <br>
 4. Zabbix <br>
 4.1 site.txt - file for discovery rule  <br>
