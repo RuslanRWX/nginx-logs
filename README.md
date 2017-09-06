@@ -4,12 +4,11 @@
 1. Install  <br>
 1.1 git clone <br>
 git clone https://github.com/ruslansvs2/nginx-logs.git
-<br>
 1.2 cd nginx-logs
 <br>
 
 2. Nginx  <br>
-2.1 Add log format to nginx.conf  <br>
+2.1 Add log format to nginx.conf <br>
 log_format  status  '$status'; <br>
 
 2.2. Add log to your virtual host config <br>
