@@ -39,6 +39,6 @@ mkdir /etc/zabbix/init.d/<br>
 cp nginx.error.sh /etc/zabbix/init.d/<br>
 cp nginx.log.sh /etc/zabbix/init.d/ <br>
 mkdir /etc/zabbix/tmp/ <br>
-cp sites.txt /etc/zabbix/tmp/
+cp sites.txt /etc/zabbix/tmp/<br>
 4.2 Import template 
 
