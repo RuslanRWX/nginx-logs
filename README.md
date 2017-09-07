@@ -33,7 +33,7 @@ sed -i "s/your_site/REAL_NAME/" nginxerror.service
 
 Where REAL_NAME is your site name
 
-### 3.2 copy to systemd directory
+### 3.2 Copy to systemd 
 
 Debian: 
 
