@@ -16,7 +16,7 @@ cd nginx-logs
 log_format  status  '$status';
 ```
 
-### 2.2. Add log to your virtual host config 
+#### 2.2. Add log to your virtual host config 
 
 ```
 access_log  /run/shm/your_site.access.log status;
@@ -24,7 +24,7 @@ access_log  /run/shm/your_site.access.log status;
 
 ### 3. systemd
 
-### 3.1 Change "your_site" to you site name in nginxerror.service and nginxlog.service
+#### 3.1 Change "your_site" to you site name in nginxerror.service and nginxlog.service
 
 ```
 sed -i "s/your_site/REAL_NAME/" nginxlog.service  
@@ -49,13 +49,13 @@ systemctl daemon-reload
 
 ### 4. Zabbix 
 
-### 4.1 site.txt - file for discovery rule 
+#### 4.1 site.txt - file for discovery rule 
 
 ```
 sed -i "s/your_site/REAL_NAME/" site.txt 
 ```
 
-### 4.2 Scripts <br>
+#### 4.2 Scripts <br>
 
 ```
 mkdir /etc/zabbix/init.d/
@@ -65,5 +65,5 @@ mkdir /etc/zabbix/tmp/
 cp sites.txt /etc/zabbix/tmp/
 ```
 
-### 4.3 Import template 
+#### 4.3 Import template 
 
