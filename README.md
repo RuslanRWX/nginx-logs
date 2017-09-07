@@ -41,7 +41,11 @@ Debian:
 cp nginxerror.service /etc/systemd/system/
 cp nginxlog.service  /etc/systemd/system/
 systemctl daemon-reload 
+```
+
 RHEL,CentOS:
+
+```
 cp nginxerror.service /usr/lib/systemd/system/
 cp nginxlog.service  /usr/lib/systemd/system/ 
 systemctl daemon-reload 
