@@ -10,7 +10,7 @@ cd nginx-logs
 ```
 
 ### 2. Configure Nginx 
-### 2.1 Add log format to nginx.conf
+#### 2.1 Add log format to nginx.conf
 
 ```
 log_format  status  '$status';
