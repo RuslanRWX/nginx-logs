@@ -65,5 +65,5 @@ mkdir /etc/zabbix/tmp/
 cp sites.txt /etc/zabbix/tmp/
 ```
 
-### 4.2 Import template 
+### 4.3 Import template 
 
