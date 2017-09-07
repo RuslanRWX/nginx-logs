@@ -1,9 +1,13 @@
-# nginx-logs <br>
-# Install and Configure <br>
+# nginx-logs
+## Install and Configure
 
-1. Install  <br>
-1.1 git clone <br>
+## 1. Install 
+
+1.1 git clone 
+```
 git clone https://github.com/ruslansvs2/nginx-logs.git<br>
+```
+
 1.2 cd nginx-logs
 <br>
 
