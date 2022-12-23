@@ -1,4 +1,4 @@
-# nginx-logs  Install and Configure
+# nginx-logs for ZABBIX monitoring Install and Configure
 
 ## 1. Install 
 
